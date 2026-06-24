@@ -1,0 +1,153 @@
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+#home{
+    margin-top:70px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 15px;
+    color: brown;
+    background-color: white;
+    border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+
+}
+.menu{
+
+    text-decoration:none;
+    color:brown;
+    border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+    transition:0.5s;
+    box-shadow: 3px 3px 5px gray;
+    background-color: white;
+}
+
+.menu:hover{
+    background-color:brown;
+    color:white;
+}
+
+.hero{
+     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    ),url(Indonesia.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-position: right;
+    color: white;
+    
+    border: 2px solid black; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 100px;
+}
+
+#judul2{
+    text-align:center;
+}
+
+.deks2{
+    text-align:center;
+    border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+    margin:10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+#judul3{
+    text-align:center;
+}
+.tombol{
+      border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+    background-color:white;
+    color:green;
+    transition: 0.5s;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.tombol:hover{
+     background-color:green;
+    color:white;
+}
+
+.kontak{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    color:brown;
+    border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+    margin:10px;
+    transition:0.5s;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.kontak:hover{
+    background-color:brown;
+    color:white;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.card img{
+    width:250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#judul4{
+    text-align: center;
+}
+
+#tentang{
+    scroll-margin-top: 80px;
+}
+
+#program{
+    scroll-margin-top: 80px;
+}
+
+#kontak{
+    scroll-margin-top: 80px;
+}
+
+#home{
+    scroll-margin-top: 80px;
+}
