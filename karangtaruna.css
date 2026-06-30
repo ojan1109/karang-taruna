@@ -184,14 +184,6 @@
     .menu{
         padding: 10px;
         font-size: 14px;
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)
-    ),url(Kartar Tunas Bangsa Sukodono.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: top;
-    background-position: right;
-    color: white;
     }
 
     .logo{
